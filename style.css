@@ -126,11 +126,34 @@
     background-color: wheat;
 }
 
-#contact_info{
+#contact_info {
     display: flex;
     border-radius: 20px;
     background-color: darkgray;
 
     justify-content: center;
     align-items: center;
+}
+
+
+
+
+.container {
+    margin: 200px auto;
+    width: 1000px;
+    height: 500px;
+}
+
+.small {
+    margin: 0 10px;
+    border: 1px solid black;
+    width: 72px;
+    height: 48px;
+}
+
+.big {
+    margin: 0 10px;
+    border: 1px solid black;
+    width: 360px;
+    height: 240px;
 }

@@ -12,7 +12,7 @@
 <head>
   <title>Randy's Restaurant Reccomandations</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="scripts.js"></script>
+  <script src="scripts.js" defer></script>
 </head>
 
 
@@ -62,7 +62,7 @@
         </header>
 
 
-        <img src="images/restaurant1.png" class="restaurant_image" alt="don">
+        <img src="images/restaurant1.png" class="restaurant_image fav_button" alt="don">
 
 
         <div>
@@ -83,30 +83,34 @@
 
         <div class="food_card_container">
           <figure class="food_cards">
-            <div>
-              <img src="images/dish1a.png" class="food_img" alt="ramen">
+            <div class = "dish">
+              <img src="images/dish1a.png" class="food_img fav_dish" alt="ramen">
               <p class="caption_text">Shoyu Ramen</p>
               <p class="caption_text">Super Savory!</p>
+              <button class="fav_button">Add to Favorites</button>
             </div>
-
+            
           </figure>
 
 
           <figure class="food_cards">
-            <div>
-              <img src="images/dish1b.png" class="food_img" alt="curry">
+            <div class = "dish">
+              <img src="images/dish1b.png" class="food_img fav_dish" alt="curry">
               <p class="caption_text">Curry</p>
               <p class="caption_text">A bit spicy!</p>
+              <button class="fav_button">Add to Favorites</button>
             </div>
+            
 
           </figure>
           <figure class="food_cards">
-            <div>
-              <img src="images/dish1c.png" class="food_img" alt="kastudon">
+            <div class = "dish">
+              <img src="images/dish1c.png" class="food_img fav_dish" alt="kastudon">
               <p class="caption_text">Don Katsu Don</p>
               <p class="caption_text">Absolutely delicious!</p>
+              <button class="fav_button">Add to Favorites</button>
             </div>
-
+            
           </figure>
         </div>
 
